@@ -5,6 +5,7 @@ AWX:
   spec:
     admin_user: admin
     postgres_configuration_secret: awx-postgres-configuration
+    no_log: false
 
   # configurations for external postgres instance
   postgres:
