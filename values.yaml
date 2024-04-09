@@ -15,5 +15,5 @@ AWX:
     # for secret management, pass in the password independently of this file
     # at the command line, use --set AWX.postgres.password
     password: mypassword
-    sslmode: prefer
+    sslmode: disable
     type: unmanaged
