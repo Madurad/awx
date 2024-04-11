@@ -4,12 +4,10 @@ AWX:
   name: awx
   spec:
     admin_user: admin
-    postgres_configuration_secret: awx-postgres-configuration
-    no_log: false
 
   # configurations for external postgres instance
   postgres:
-    enabled: true
+    enabled: false
     host: postgres-service.awx.svc.cluster.local
     port: 5678
     dbName: awx
